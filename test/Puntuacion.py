@@ -5,35 +5,70 @@ def test_puntuacion_coresponde():
    Definimos la funcion de prueba para verificar la puntuacion
 
    """"
-   puntos : int=  102   # Damos los puntos
-   bonus : bool = True   # Damos los bonus
-   expect: str  = "oro" # Damos Establecemos el tio de medalla 
+   puntos : int=  102       # Damos los puntos
+   bonus : bool = True      # Damos los bonus
+   expect: str  = "oro"     # Resultado esperado 
    result : str = calcular_puntuacion(puntos , bonus) # Llamamos a la funcion y guardamos el resultdo
    assert expect == result  # Comprobamos que el resulta sea el esperado
 
-   puntos: int=  88
-   bonus : bool = ()  
-   expect: str  = "Plata"
-   result : str = calcular_puntuacion(puntos , bonus)
-   assert expect == result 
+   puntos: int=  88        # Damos los puntos
+   bonus : bool = ()       # Damos los bonus
+   expect: str  = "Plata"  # Resultado esperado
+   result : str = calcular_puntuacion(puntos , bonus) # Llamamos a la funcion y guardamos el resultdo
+   assert expect == result # Comprobamos que el resulta sea el esperado
    
-   puntos: int=  20
-   bonus : bool = ()  
-   expect: str  = "Bronce"
-   result : str = calcular_puntuacion(puntos , bonus)
-   assert expect == result 
+   puntos: int=  20        # Damos los puntos
+   bonus : bool = ()       # Damos los bonus
+   expect: str  = "Bronce" # Resultado esperado
+   result : str = calcular_puntuacion(puntos , bonus)  # Llamamos a la funcion y guardamos el resultdo
+   assert expect == result   # Comprobamos que el resulta sea el esperado
 
 
-   puntos: int=  117
-   bonus : bool = ()  
-   expect: str  = "Oro"
-   result : str = calcular_puntuacion(puntos , bonus)
-   assert expect == result 
+   puntos: int=  117       # Damos los puntos
+   bonus : bool = ()       # Damos los bonua
+   expect: str  = "Oro"    # Resultado esperado
+   result : str = calcular_puntuacion(puntos , bonus)  # Llamamos a la funcion y guardamos el resultdo
+   assert expect == result   # Comprobamos que el resulta sea el esperado
 
 
-   puntos: int=  40
-   bonus : bool = ()  
-   expect: str  = "Plata"
-   result : str = calcular_puntuacion(puntos , bonus)
-   assert expect == result 
+   puntos: int=  40         # Damos los puntos
+   bonus : bool = ()        # Damos los bonus
+   expect: str  = "Bronce"  # Resultado
+   result : str = calcular_puntuacion(puntos , bonus)  # Llamamos a la funcion y guardamos el resultdo
+   assert expect == result   # Comprobamos que el resulta sea el esperado
 
+
+   puntos : int=  154       # Damos los puntos
+   bonus : bool = True      # Damos los bonus
+   expect: str  = "oro"     # Resultado esperado 
+   result : str = calcular_puntuacion(puntos , bonus) # Llamamos a la funcion y guardamos el resultdo
+   assert expect == result  # Comprobamos que el resulta sea el esperado
+
+
+   puntos: int=  36         # Damos los puntos
+   bonus : bool = ()        # Damos los bonus
+   expect: str  = "Bronce"  # Resultado
+   result : str = calcular_puntuacion(puntos , bonus)  # Llamamos a la funcion y guardamos el resultdo
+   assert expect == result   # Comprobamos que el resulta sea el esperado
+
+
+
+   puntos: int=  58        # Damos los puntos
+   bonus : bool = ()       # Damos los bonus
+   expect: str  = "Plata"  # Resultado esperado
+   result : str = calcular_puntuacion(puntos , bonus) # Llamamos a la funcion y guardamos el resultdo
+   assert expect == result # Comprobamos que el resulta sea el esperado
+
+
+   puntos : int=  172      # Damos los puntos
+   bonus : bool = True      # Damos los bonus
+   expect: str  = "oro"     # Resultado esperado 
+   result : str = calcular_puntuacion(puntos , bonus) # Llamamos a la funcion y guardamos el resultdo
+   assert expect == result  # Comprobamos que el resulta sea el esperado
+
+
+   puntos: int=  43       # Damos los puntos
+   bonus : bool = ()       # Damos los bonus
+   expect: str  = "Bronce" # Resultado esperado
+   result : str = calcular_puntuacion(puntos , bonus)  # Llamamos a la funcion y guardamos el resultdo
+   assert expect == result   # Comprobamos que el resulta sea el esperado
